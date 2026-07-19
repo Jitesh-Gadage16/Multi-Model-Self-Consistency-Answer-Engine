@@ -5,6 +5,8 @@ import {
     evaluateAndRefine,
 } from '@/index.js';
 
+export const maxDuration = 60; // seconds — raise only on a Vercel plan that supports longer durations
+
 const MAX_INPUT_LENGTH = 2000;
 const VALID_MODELS = ['openai', 'claude', 'gemini'];
 
